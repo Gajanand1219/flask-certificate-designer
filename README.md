@@ -1,6 +1,6 @@
 # Flask Certificate Designer
 
-[Go to Usage](#output)
+[Go to Output](#output)
 
 ## Description
 A dynamic web application for designing and generating certificates. Users can select from multiple certificate templates, input their details, and generate customized certificates. This project is built using Flask, OpenCV, and HTML/CSS. The generated certificates can be sent directly via email as attachments.
