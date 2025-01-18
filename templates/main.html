@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Designer</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+         img{
+            height: 200px;
+            width: 190px
+            
+        }
+        .navbar {
+            background-color: #007bff;
+        }
+
+        .navbar-brand {
+            color: white;
+            }
+
+        img {
+        transition: transform 0.3s ease; /* Smooth zoom effect */
+    }
+
+    img:hover {
+         transform: scale(1.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+        cursor: pointer; /* Changes cursor to pointer */    
+    }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Certificate Designer</a>
+</nav>
+    <div class="container">
+        <h1 class="my-5">Select Certificate Template</h1>
+        <div class="row">
+            <div class="col-md-4"><a href="/template1" class="btn btn-primary btn-block">Template 1</a></div>
+            <div class="col-md-4"><a href="/template2" class="btn btn-success btn-block">Template 2</a></div>
+            <div class="col-md-4"><a href="/template3" class="btn btn-warning btn-block">Template 3</a></div>
+        </div>
+    </div>
+
+    
+<!-- Certificate Selection -->
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card-body text-center card">
+                <div class="card-body">
+                    <h5 class="card-title pb-3">Student</h5>
+                   <a href="/template1"> <img src="{{ url_for('static', filename='cir3.png') }}" alt="Image"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card-body text-center card">
+                <div class="card-body">
+                    <h5 class="card-title pb-3">Project Mangment</h5>
+                    <a href="/template2"> <img src="{{ url_for('static', filename='cir2.png') }}" alt="Image"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card-body text-center card">
+                <div class="card-body">
+                    <h5 class="card-title pb-3"> Blood Camp</h5>
+                    <a href="/template3"> <img src="{{ url_for('static', filename='cir1.png') }}" alt="Image"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><br><br>
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"><a href="/template4" class="btn btn-primary btn-block">Template 4</a></div>
+        <div class="col-md-4"><a href="/template5" class="btn btn-success btn-block">Template 5</a></div>
+        <div class="col-md-4"><a href="/template6" class="btn btn-warning btn-block">Template 6</a></div>
+    </div>
+</div>
+<!-- Certificate Selection -->
+<div class="container pt-0">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card-body text-center card">
+                <div class="card-body">
+                    <h5 class="card-title pb-3">Dumy Certificate</h5>
+                    <a href="/template4"> <img src="{{ url_for('static', filename='cir4.png') }}" alt="Image"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card-body text-center card">
+                <div class="card-body">
+                    <h5 class="card-title pb-3">Project Skill</h5>
+                    <a href="/template5">   <img src="{{ url_for('static', filename='cir5.png') }}" alt="Image"> </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card-body text-center card">
+                <div class="card-body">
+                    <h5 class="card-title pb-3">Microsoft</h5>
+                    <a href="/template6">   <img src="{{ url_for('static', filename='cir6.png') }}" alt="Image"> </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
