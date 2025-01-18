@@ -45,11 +45,3 @@ A dynamic web application for designing and generating certificates. Users can s
 
 
 
-
-
-
-
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/flask-certificate-designer.git
