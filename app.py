@@ -84,7 +84,7 @@ def template1_order():
     cv2.putText(template, education, (135, 395), cv2.FONT_HERSHEY_COMPLEX, 0.6, (255,255,255), 1, cv2.LINE_AA)
     cv2.putText(template, skill, (63, 424), cv2.FONT_HERSHEY_COMPLEX, 0.6, (255,255,255), 1, cv2.LINE_AA)
     cv2.putText(template, date, (90, 484), font, 0.5, (255,255,255), 1, cv2.LINE_AA)
-    cv2.putText(template, signature, (115, 554), cv2.FONT_HERSHEY_SCRIPT_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
+    cv2.putText(template, signature, (116, 554), cv2.FONT_HERSHEY_SCRIPT_SIMPLEX, 1, (255,255,255), 1, cv2.LINE_AA)
     cv2.putText(template, id, (144, 638), font, 0.4, (255,255,255), 1, cv2.LINE_AA)
     
      # Save the certificate
