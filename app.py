@@ -116,7 +116,7 @@ def template2_order():
     Course = request.form['Course']
     Issued = request.form['Issued']
     date = request.form['date']
-    id = str(random.randint(100000000000, 999999999999))  # Generates a 12-digit ID
+    id = str(random.randint(100000000009, 999999999999))  # Generates a 12-digit ID
 
 
     # load the image
