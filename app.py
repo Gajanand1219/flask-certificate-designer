@@ -67,7 +67,7 @@ def template1_order():
     skill = request.form['skills']
     date = request.form['date']
     signature =request.form['signature']
-    id = str(random.randint(100000000000, 999999999999))  # Generates a 12-digit ID
+    id = str(random.randint(100000000000, 99999999999))  # Generates a 12-digit ID
 
 
     # load the image
