@@ -101,7 +101,7 @@ def template1_order():
 
     # Send the email
     mail.send(msg)
-    # # return send_file(output_path, as_attachment=True)  # Return the file as an attachment
+    # # return send_file(output_path, as_attachment=True) 
     return render_template('main.html')
 
     
